@@ -312,11 +312,23 @@ import sklearn.datasets
 import sklearn.linear_model
 from planar_utils import plot_decision_boundary, sigmoid
 
-%matplotlib inline
+
 
 np.random.seed(1) # set a seed so that the results are consistent
 
-X, Y = load_dataset
+
+
+
+
+
+
+
+
+
+X, Y = load_dataset()
+
+
+
 # Visualize the data:
 plt.scatter(X[0, :], X[1, :], c=Y, s=40, cmap=plt.cm.Spectral)
 
